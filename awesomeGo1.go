@@ -1,16 +1,9 @@
 package main
 
-import (
-	"fmt"
-
-	"gopl.io-master/awesomeGO" // 修改为模块路径导入
-	"gopl.io-master/awesomeGO/aw3"
-)
+import "gopl.io-master/awesomeGO/aw2"
 
 func main() {
-	result := awesomeGO.Arrays()
-	fmt.Println(result)
+	aw2.SliceMap(3)
 
-	aw3.Tcc()
-
+	aw2.MapSlice(3)
 }
